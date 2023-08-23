@@ -1,0 +1,16 @@
+domain: geoff.crd.demo
+layout:
+- go.kubebuilder.io/v3
+projectName: create-crd-demo
+repo: k8s-operator/kubebuilder-crd-demo
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: geoff.crd.demo
+  group: apps
+  kind: CustomeCrdDemo
+  path: k8s-operator/kubebuilder-crd-demo/api/v1
+  version: v1
+version: "3"

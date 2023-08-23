@@ -1,0 +1,6 @@
+apiVersion: apps.geoff.crd.demo/v1
+kind: CustomeCrdDemo
+metadata:
+  name: customecrddemo-sample
+spec:
+  # TODO(user): Add fields here
