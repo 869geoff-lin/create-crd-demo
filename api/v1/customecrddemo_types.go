@@ -29,7 +29,12 @@ type CustomeCrdDemoSpec struct {
 	// Important: Run "make" to regenerate code after modifying this file
 
 	// Foo is an example field of CustomeCrdDemo. Edit customecrddemo_types.go to remove/update
-	Foo string `json:"foo,omitempty"`
+	// Foo string `json:"foo,omitempty"`
+
+	// 资源名称
+	ResouresName string `json:"resourceName,omitempty"`
+	// 附加信息
+	AdditionalInfo string `json:"additionalInfo,omitempty"`
 }
 
 // CustomeCrdDemoStatus defines the observed state of CustomeCrdDemo
